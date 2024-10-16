@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar ul li a.active {
+    background-color: transparent !important;
+    color: green !important;
+    border: 2px solid green;
+}
